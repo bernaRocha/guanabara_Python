@@ -1,2 +1,2 @@
-# guanabara_Python
-Repositório dos cursos de Python do professor Guanabara
+# Curso de Python do professor Guanabara <br>
+Repositório dos exercícios de Python do professor Guanabara
