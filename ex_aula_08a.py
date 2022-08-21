@@ -1,9 +1,12 @@
 import math
 import emoji
+
+### libs do Python: https://pypi.org/
+
 ### from math import
 
-### floor(raiz) arredonda para baixo
-### ceil(raiz) arredonda para cima
+## floor(raiz) arredonda para baixo
+## ceil(raiz) arredonda para cima
 
 # Link da aula https://youtu.be/oOUyhGNib2Q
 
