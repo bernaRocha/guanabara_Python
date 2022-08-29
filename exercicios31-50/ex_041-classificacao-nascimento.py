@@ -17,6 +17,8 @@ else:
    idade = ano_atual - ano_nascimento - 1
    print(f'Quem nasceu em {ano_nascimento} e não fez aniversário tem {idade} anos.')
 
+print(f"O atleta tem {idade} anos.")
+
 ##### Classificação quanto a idade
 if idade <= 9:
     print('Classificação MIRIM')
