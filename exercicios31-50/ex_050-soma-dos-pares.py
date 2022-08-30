@@ -15,5 +15,6 @@ for n in range(1, 7):
 
     numeros.append(numero)
 
-print(f'Você registrou {contador} números pares, a soma deles é {somatorio}')
+print('')
+print(f'Você registrou {contador} números pares, a soma deles é {somatorio}', end='\n\n')
 print(f'Números registrados: {numeros}')
