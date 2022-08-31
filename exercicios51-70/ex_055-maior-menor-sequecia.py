@@ -19,3 +19,13 @@ for p in range(1, 6):
             menor = peso
 print(f'O maior peso lido foi de {maior}Kg')
 print(f'O menor peso lido foi de {menor}Kg')
+
+##### Forma menos verbosa
+
+lista_peso = []
+for i in range(1, 6):
+    peso = float(input(f'Peso da pessoa ({i}): '))
+    lista_peso+=[peso]
+
+print(f'O maior peso lido foi de {min(lista_peso)}Kg')
+print(f'O menor peso lido foi de {max(lista_peso)}Kg')
