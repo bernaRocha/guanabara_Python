@@ -1,8 +1,8 @@
 #### Programa para verificar se determinada frase é palíndromo
 #### Há duas soluções, com laço for e com fatiamento
 ###
-## Exemplos de palíndromos:  apos a sopa || a sacada da casa ||
-## a torre da derrota || o lobo ama o bolo || anotaram a data da maratona 
+### Exemplos de palíndromos:  apos a sopa || a sacada da casa 
+### a torre da derrota || o lobo ama o bolo || anotaram a data da maratona 
 from os import system
 
 system('clear')
