@@ -1,6 +1,8 @@
+from os import system
+system('clear')
+
 distancia_viagem = float(input('Qual a distância da viagem em Km: '))
 # valor_kilometro = int(input('Qual o valor por cada Kilometro'))
-
 
 # if distancia_viagem <= 200:
 #     preco = distancia_viagem * 0.5

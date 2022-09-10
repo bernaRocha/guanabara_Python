@@ -1,3 +1,6 @@
+from os import system
+system('clear')
+
 casa = float(input('Qual o valor da casa: R$ '))
 salario = float(input("Qual o salário do comprador: R$ "))
 anos = int(input('Quantos anos de financiamento? '))

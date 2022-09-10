@@ -1,3 +1,6 @@
+from os import system
+system('clear')
+
 print('Analisando as medidas...')
 reta_1 = float(input('Primeiro seguimento: '))
 reta_2 = float(input('Segundo segmento: '))

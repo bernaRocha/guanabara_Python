@@ -1,3 +1,6 @@
+from os import system
+system('clear')
+
 numero_1 = int(input('Primeiro número: '))
 numero_2 = int(input('Segundo número: '))
 

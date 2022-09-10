@@ -1,4 +1,6 @@
+from os import system
 from datetime import date
+system('clear')
 
 ano = int(input("Qual ano quer analisar? Digite 0 para o ano atual: "))
 

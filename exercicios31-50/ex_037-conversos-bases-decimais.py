@@ -1,3 +1,6 @@
+from os import system
+system('clear')
+
 numero = int(input('Digite um número para a análise: '))
 print('''Escolha uma das bases para conversão
   [ 1 ] converter para BINÁRIO 

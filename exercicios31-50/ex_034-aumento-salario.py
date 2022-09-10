@@ -1,3 +1,6 @@
+from os import system
+system('clear')
+
 salario = float(input('Qual é o salário atual do funcionário? '))
 
 if salario <= 1250:
