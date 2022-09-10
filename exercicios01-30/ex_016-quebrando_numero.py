@@ -1,4 +1,6 @@
+from os import system
 from math import trunc
+system('clear')
 
 numero = float(input("Digite um valor: "))
 print(f"O número digita foi {numero} e sua parte inteira é {trunc(numero)}")

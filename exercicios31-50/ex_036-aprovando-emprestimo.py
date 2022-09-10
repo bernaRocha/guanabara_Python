@@ -12,3 +12,4 @@ if prestacao <= minimo:
     print('Empréstimo pode ser concedido')
 else:
     print('Empréstimo negado')
+    

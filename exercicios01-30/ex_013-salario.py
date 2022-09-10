@@ -2,6 +2,9 @@
 Aumento de salário, uso de porcentagem
 """
 
+from os import system
+system('clear')
+
 salario = float(input("Qual o salário do funionário: "))
 aumento = float(input("Quantos '%' de aumento ele terá: "))
 salario_com_aumento = salario + (aumento/100 * salario)

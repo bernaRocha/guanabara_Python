@@ -13,3 +13,4 @@ elif opcao == 3:
     print(f'O número {numero} convertido para hexadecimal é {hex(numero)[2:]}')
 else:
     print('Opção inválida')
+    

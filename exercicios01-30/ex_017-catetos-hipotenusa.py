@@ -3,8 +3,9 @@ ler o comprimento do cateto oposto e do adjacente
 de um triângulo retângulo, calcule e mostre o comprimento
 da hipotenusa
 """
-
+from os import system
 from math import hypot
+system('clear')
 
 #### Uma forma de resolver
 

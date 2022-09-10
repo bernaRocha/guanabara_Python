@@ -1,6 +1,9 @@
 """
 Porcentagem com preço
 """
+from os import system
+system('clear')
+
 preco = float(input("Qual o valor do produto? "))
 desconto = float(input("Quanto de desconto tem esse produto? "))
 com_desconto = preco - (preco * desconto / 100)

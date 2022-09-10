@@ -1,4 +1,6 @@
 # antecessor, sucessor, dobro, triplo e raiz quadrada
+from os import system
+system('clear')
 
 numero = int(input("Digite o número: "))
 antecessor = numero - 1

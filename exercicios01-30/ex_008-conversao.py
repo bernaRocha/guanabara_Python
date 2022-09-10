@@ -1,5 +1,8 @@
 # km hm dam m dm cm mm
 
+from os import system
+system('clear')
+
 medida = float(input("Uma distância em metros: "))
 milimetros = medida * 1000
 centimetros = medida * 100

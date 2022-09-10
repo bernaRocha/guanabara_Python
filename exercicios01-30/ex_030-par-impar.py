@@ -1,4 +1,7 @@
-numero = input("Digite um número qualquer: ")
+from os import system
+system('clear')
+
+numero = int(input("Digite um número qualquer: "))
 
 if numero % 2 == 0:
     print(f'O número {numero} é par.')

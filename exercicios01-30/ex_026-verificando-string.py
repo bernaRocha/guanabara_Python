@@ -1,3 +1,6 @@
+from os import system
+system('clear')
+
 frase = input('Digite uma frase: ').strip().upper()
 
 letra = input('Qual letra você deseja contar ? ')

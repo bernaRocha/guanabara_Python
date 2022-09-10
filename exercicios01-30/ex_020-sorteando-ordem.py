@@ -1,4 +1,6 @@
+from os import system
 from random import shuffle
+system('clear')
 
 aluno1 = input("Primeiro aluno: ")
 aluno2 = input("Segundo aluno: ")

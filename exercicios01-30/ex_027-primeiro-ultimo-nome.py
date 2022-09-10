@@ -1,5 +1,5 @@
 from os import system
-
+system('clear')
 
 nome_inteiro = input('Digite seu nome completo: ').strip()
 nome_separado = nome_inteiro.split()

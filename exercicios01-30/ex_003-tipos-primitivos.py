@@ -5,6 +5,9 @@
 # bool = True False
 # str = "Texto" 'texto' "0" "False"
 
+from os import system
+system('clear')
+
 numero1 = int(input("Digite um número: "))
 numero2 = int(input("Digite o segundo: "))
 soma = numero1 + numero2

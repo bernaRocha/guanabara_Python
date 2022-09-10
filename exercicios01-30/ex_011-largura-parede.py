@@ -1,3 +1,6 @@
+from os import system
+system('clear')
+
 largura = float(input("Qual a largura da parede: "))
 altura = float(input("qual a altura da parede: "))
 area = largura * largura

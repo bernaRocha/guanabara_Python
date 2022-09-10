@@ -4,6 +4,9 @@ Crie um programa que leia quanto dinheiro uma pessoa tem na carteira
 e mostre quantos dólares ela pode comprar.
 """
 
+from os import system
+system('clear')
+
 cotacao_dolar = float(input("Qual o valor do dólar hoje: US$ "))
 valor_carteira = float(input("Quanto reais deseja converter: R$ "))
 

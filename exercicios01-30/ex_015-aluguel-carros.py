@@ -2,6 +2,8 @@
 Cálculo do valor a ser pago pelo aluguel de um carro.
 Levemente modificado do vídeo da aula.
 """
+from os import system
+system('clear')
 
 dias_alugados = int(input("Por quantos dias o c arro foi usado: "))
 kilometros_usados = float(input("Quantos kilometros rodados: "))

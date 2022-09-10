@@ -1,4 +1,6 @@
+from os import system
 from time import sleep
+system('clear')
 
 velocidade = float(input('Qual a velocidade atual do carro? (Responda apenas com números) '))
 

@@ -1,3 +1,6 @@
+from os import system
+system('clear')
+
 numero = int(input("Informe um número: "))
 
 unidade = numero // 1 % 10
@@ -9,4 +12,3 @@ print(f'Unidade: {unidade}')
 print(f'Dezena: {dezena}')
 print(f'Centena: {centena}')
 print(f'Milhar: {milhar}')
-

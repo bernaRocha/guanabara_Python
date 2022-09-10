@@ -4,10 +4,10 @@ print(f'Carro novo' if tempo <= 3 else 'Carro velho')
 print('-----FIM-----')
 
 """
-
 from os import system
 from random import randint
 from time import sleep
+system('clear')
 
 computador = randint(0, 100)
 

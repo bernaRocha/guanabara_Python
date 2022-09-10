@@ -60,4 +60,3 @@ if jogada_computador == 2: # Tesoura
         print('Deu empate, tente novamente')
     else:
         print('Jogada inválida')
-

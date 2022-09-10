@@ -1,4 +1,6 @@
 ## Verificações
+from os import system
+system('clear')
 
 algo = input("Digite algo: ")
 

@@ -1,6 +1,8 @@
 """
 Conversor de temperaturas
 """
+from os import system
+system('clear')
 
 temperatura_celcius = float(input("Informe a temperatura em ºC: "))
 

@@ -2,8 +2,9 @@
 Ler um ângulo qualquer e mostrar:
 seno, cosseno e tangente desse ângulo
 """
-
+from os import system
 from math import tan, cos, sin, radians
+system('clear')
 
 angulo = float(input("Digite o ângulo: "))
 seno = sin(radians(angulo))

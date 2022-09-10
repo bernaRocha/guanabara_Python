@@ -1,3 +1,6 @@
+from os import system
+system('clear')
+
 frase = "Revendo o Curso em vídeo do Guanabara"
 print(frase[19])
 print(frase[28:37])

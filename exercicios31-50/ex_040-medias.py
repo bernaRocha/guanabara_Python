@@ -13,3 +13,4 @@ elif media <= 7:
     print(f'Com a média {media:.1f} o aluno está em recuperação.')
 else:
     print(f'Com a média {media:.1f} o aluno está APROVADO.')
+    

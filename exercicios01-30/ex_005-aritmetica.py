@@ -1,3 +1,6 @@
+from os import system
+system('clear')
+
 numero1 = int(input('Digite um número: '))
 numero2 = int(input('Digite o segundo: '))
 
