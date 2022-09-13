@@ -18,17 +18,17 @@ obesidade_morbida = imc > 40
 print(f'Seu IMC é de {imc:.1f}')
 
 if muito_abaixo:
-    print(f'Seu peso está muito baixo!')
+    print(f'Seu IMC é {imc}. Seu peso está muito baixo!')
 elif abaixo_peso:
-    print(f'Você está abaixo do peso')
+    print(f'Seu IMC é {imc}. Você está abaixo do peso')
 elif peso_normal:
-    print(f'Você está com o peso normal')
+    print(f'Seu IMC é {imc}. Você está com o peso normal')
 elif sobrepeso:
-    print(f'Você está com sobrepeso')
+    print(f'Seu IMC é {imc}. Você está com sobrepeso')
 elif obesidade_grau1:
-    print(f'Você está com obesidade grau 1, cuidado')
+    print(f'Seu IMC é {imc}. Você está com obesidade grau 1, cuidado')
 elif obesidade_grau2:
-    print(f'Você está com obesidade grau 2, cuidado')
+    print(f'Seu IMC é {imc}. Você está com obesidade grau 2, cuidado')
 else:
-    print(f'Você está com obesidade mórbida, cuidado')
+    print(f'Seu IMC é {imc}. Você está com obesidade mórbida, cuidado')
     
