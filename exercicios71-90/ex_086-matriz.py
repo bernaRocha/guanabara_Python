@@ -6,6 +6,7 @@ from os import system
 system('clear')
 
 matriz = [[0, 0 , 0], [0, 0 , 0], [0, 0 , 0]] # para não usar o append
+
 for linha in range(0, 3):
     for coluna in range(0, 3):
         matriz[linha][coluna] = int(input(f'Registre o valor para [{linha}, {coluna}]: '))
