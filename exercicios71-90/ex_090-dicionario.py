@@ -19,3 +19,4 @@ else:
 print('-=' * 30)
 for chave, valor in aluno.items():
     print(f'   - {chave} é igual a {valor}')
+    
