@@ -1,5 +1,4 @@
 from os import system
-
 system('clear')
 
 sexo = input('Informe seu sexo: [M/F] ').strip().upper()[0]
