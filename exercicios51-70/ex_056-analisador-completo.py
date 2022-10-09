@@ -15,7 +15,7 @@ for p in range(1, 5):
     sexo = input('Diga seu sexo [M/F]: ').strip()
 
     somatorio_idade += idade
-    if p == 1 and sexo in 'Mn':
+    if p == 1 and sexo in 'Mm':
         maior_idade_homem = idade
         nome_mais_velho = nome
     if sexo in 'Mm' and idade > maior_idade_homem:
